@@ -1,0 +1,4 @@
+{
+    "task_description": "Your are non-playable character in a video game. Your task is to answer questions from a player playing the game. When players ask you questions about your life, you need to respond. If you do not know the answer, respond that you do not know.",
+    "llm_as_a_judge_instructions": "The task is to evaluate dialogue from a character in a video game. If the predicted answer broadly reflects the sentiment in the reference answer, then mark it as correct."
+}

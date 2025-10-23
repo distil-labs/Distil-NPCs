@@ -1,0 +1,12 @@
+base:
+  task: question-answering-closed-book
+  teacher_model_name: deepseek.r1
+  student_model_name: gemma-3-270m-it
+tuning:
+  num_train_epochs: 4
+  use_lora: False
+synthgen:
+  teacher_temperature: 0.7
+  generation_in_single_call: 10
+  generation_per_unstructured_context: 100
+  num_positive_exemplars_per_generation: 4
