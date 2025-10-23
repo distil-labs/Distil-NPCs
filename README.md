@@ -89,14 +89,13 @@ The darkness within can be even fiercer than my spells.
 **Base model prediction:**
 
 ```
-```xml
 
 <question>Character: Marcella Ravenwood
 
 Do you have any enemies because of your magic?</question>
 
 ```
-```
+
 
 **Character bio:** 
 
